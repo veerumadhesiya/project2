@@ -19,7 +19,7 @@ export default function Signin() {
     e.preventDefault()
     console.log("email : ", user.email)
     console.log("password : ", user.password)
-    fetch('http://localhost:4001/things/signin', {
+    fetch('https://project2-91az.onrender.com/things/signin', {
       method: 'POST',
       headers: {
         "Content-Type": 'application/json'
@@ -75,3 +75,4 @@ export default function Signin() {
     </div>
   )
 }
+
